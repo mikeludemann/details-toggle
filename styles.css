@@ -1,0 +1,38 @@
+details {
+	margin-bottom: 20px;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+details p {
+	padding: 20px;
+}
+
+summary {
+	padding: 20px;
+	background-color: #44ce44;
+	color: #fff;
+	border: 1px solid #9fb6ce;
+	outline: none;
+}
+
+summary:hover,
+summary:focus {
+	border: 1px solid lightslategray;
+}
+
+details[open] summary {
+	background-color: #44ce44;
+	color: #fff;
+	border: 1px solid lightslategray;
+}
+
+details[open] {
+	background: #fff;
+}
+
+section {
+	max-width: 80%;
+	width: 100%;
+}
+
